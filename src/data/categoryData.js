@@ -13,7 +13,7 @@ export const sliderData = {
     { name: 'Varkala, Kerala', duration: '4 days 3 nights', description: 'Experience the unique cliff-side beaches overlooking the Arabian Sea.', image: '/India/Kerala/Thekkady.jpg' },
     { name: 'Kovalam, Kerala', duration: '3 days 2 nights', description: 'Relax at the iconic lighthouse beach with Ayurvedic spa treatments.', image: '/India/Kovalam Kerala.jpg' },
     { name: 'Tarkarli, Maharashtra', duration: '4 days 3 nights', description: 'Enjoy thrilling water sports and scuba diving in clear waters.', image: '/India/Trakarli Maharashtra.jpg' },
-    { name: 'Palolem Beach, Goa', duration: '5 days 4 nights', description: 'Experience the crescent-shaped bay known for its calm waters.', image: '/India/Palolem Beach, Goa.jpg' },
+    { id: 'goa-7', name: 'Palolem Beach, Goa', duration: '5 days 4 nights', description: 'Experience the crescent-shaped bay known for its calm waters.', image: '/India/Goa/Palolem Beach, Goa.jpg' },
     { name: 'Munnar, Kerala', duration: '5 days 4 nights', description: 'Relax amidst the lush green tea gardens and misty mountains.', image: '/India/Munnar Kerala.jpg' }
   ],
   HillStations: [

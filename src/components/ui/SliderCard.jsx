@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export function SliderCard({ item }) {
   return (
-    <Link to={item.link ? item.link : (item.id ? `/tour/${item.id}` : "/destinations")} className="block w-[300px] md:w-[380px] shrink-0 border border-stone/20 rounded-xl overflow-hidden bg-white shadow-sm hover:shadow-lg transition-shadow duration-300 group">
+    <Link to={item.link ? item.link : (item.id ? `/tour/${item.id}` : "/")} className="block w-[300px] md:w-[380px] shrink-0 border border-stone/20 rounded-xl overflow-hidden bg-white shadow-sm hover:shadow-lg transition-shadow duration-300 group">
       <div className="relative h-48 md:h-56 overflow-hidden">
         <img 
           src={item.image} 

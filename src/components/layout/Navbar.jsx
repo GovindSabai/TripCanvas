@@ -151,62 +151,7 @@ export function Navbar() {
     { name: 'Home', path: '/' },
     { 
       name: 'Destinations', 
-      path: '#',
-      isMegaMenu: true,
-      dropdown: [
-        { 
-          name: 'India', 
-          path: '/destinations/india',
-          regions: {
-            "North India": [
-              { name: "Kashmir", path: "/tour/kashmir" },
-              { name: "Rajasthan", path: "/tour/rajasthan" },
-              { name: "Leh Ladakh", path: "/tour/leh-ladakh" },
-              { name: "Uttarakhand", path: "/tour/uttarakhand" },
-              { name: "Himachal Pradesh", path: "/tour/himachal" }
-            ],
-            "South India": [
-              { name: "Kerala", path: "/tour/kerala" },
-              { name: "Andaman", path: "/tour/andaman" },
-              { name: "Karnataka", path: "/tour/karnataka" },
-              { name: "Tamil Nadu", path: "/tour/tamil-nadu" },
-              { name: "Andhra Pradesh", path: "/tour/andhra-pradesh" }
-            ],
-            "East India": [
-              { name: "Assam", path: "/tour/assam" },
-              { name: "Sikkim", path: "/tour/sikkim" },
-              { name: "Meghalaya", path: "/tour/meghalaya" },
-              { name: "West Bengal", path: "/tour/west-bengal" },
-              { name: "Arunachal Pradesh", path: "/tour/arunachal-pradesh" }
-            ],
-            "West India": [
-              { name: "Goa", path: "/tour/goa" },
-              { name: "Gujarat", path: "/tour/gujarat" },
-              { name: "Maharastra", path: "/tour/maharashtra" },
-              { name: "Chhattisgarh", path: "/tour/chhattisgarh" },
-              { name: "Madhya Pradesh", path: "/tour/madhya-pradesh" }
-            ]
-          }
-        },
-        { 
-          name: 'World', 
-          path: '/destinations/world',
-          subItems: [
-            { name: "Spain", path: "/tour/spain" },
-            { name: "Malaysia", path: "/tour/malaysia" },
-            { name: "London (UK)", path: "/tour/london" },
-            { name: "Indonesia (Bali)", path: "/tour/bali-int" },
-            { name: "Italy", path: "/tour/italy" },
-            { name: "Sri Lanka", path: "/tour/sri-lanka" },
-            { name: "Dubai (UAE)", path: "/tour/dubai" },
-            { name: "Bhutan", path: "/tour/bhutan-int" },
-            { name: "Singapore", path: "/tour/singapore" },
-            { name: "Vietnam", path: "/tour/vietnam" },
-            { name: "Thailand", path: "/tour/thailand" },
-            { name: "Switzerland", path: "/tour/switzerland" }
-          ]
-        }
-      ]
+      path: '#'
     },
     { name: 'Plan Your Trip', path: '/plan' },
     { name: 'About', path: '/about' },

@@ -6,12 +6,17 @@ import { RegionPackages } from '../components/sections/RegionPackages';
 import { RegionInfo } from '../components/sections/RegionInfo';
 import { RegionFAQ } from '../components/sections/RegionFAQ';
 import { NewsletterBanner } from '../components/sections/NewsletterBanner';
+import { useAdminData } from '../context/AdminDataContext';
 
 export default function RegionPage() {
   const { id } = useParams();
   const navigate = useNavigate();
+  const { getPublicDestinations } = useAdminData();
+  
   const regionId = id || '';
   const formattedName = regionId.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+  
+  const destImage = getPublicDestinations().find(d => d.slug === regionId)?.image;
   
   // Define specific places for dynamic generation
   const placesMap = {
@@ -98,7 +103,7 @@ export default function RegionPage() {
       }
     ];
 
-  const region = regionsData[regionId] || {
+  const baseRegion = regionsData[regionId] || {
     id: regionId,
     name: formattedName,
     heroImage: 'https://images.unsplash.com/photo-1593693397690-362cb9666fc2?q=80&w=1920&auto=format&fit=crop',
@@ -150,6 +155,11 @@ export default function RegionPage() {
       }
     ],
     stories: dynamicStories
+  };
+
+  const region = {
+    ...baseRegion,
+    heroImage: destImage || baseRegion.heroImage
   };
 
   useEffect(() => {

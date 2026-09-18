@@ -58,7 +58,39 @@ export default function TourPage() {
     }
 
     const isIndiaTour = !internationalMatch && !euMatch;
-    const matchedImage = internationalMatch ? internationalMatch.image : (euMatch ? euMatch.image : "/India/Udiapur Rajsthan.jpg");
+    const categoryMatch = Object.values(sliderData).flat().find(item => item.id === id);
+    
+    let matchedImage = "/India/Udiapur Rajsthan.jpg";
+    if (internationalMatch) {
+      matchedImage = internationalMatch.image;
+    } else if (euMatch) {
+      matchedImage = euMatch.image;
+    } else if (categoryMatch) {
+      matchedImage = categoryMatch.image;
+    } else if (isIndiaTour) {
+      // Look up image map for India dynamic tours
+      const imageMap = {
+        'Shillong': '/India/Meghalaya/Shillong.jpg',
+        'Cherrapunji': '/India/Meghalaya/Cherranpunji.jpg',
+        'Dawki': '/India/Meghalaya/Dawki.jpg',
+        'North Goa': '/India/Goa/North goa.jpg',
+        'South Goa': '/India/Goa/south goa.jpg',
+        'Panaji': '/India/Goa/Panaji.jpg',
+        'Calangute': '/India/Goa/Calangute.jpg',
+        'Baga': '/India/Goa/Baga.jpg',
+        'Anjuna': '/India/Goa/Anjuna.jpg',
+        'Palolem': '/India/Goa/Palolem Beach, Goa.jpg',
+        'Dudhsagar': '/India/Goa/Dudhsagar.jpg',
+        'Bangkok': '/India/Thailand/Bangok.jpg',
+        'Phuket': '/India/Thailand/Phuket.jpg',
+        'Pattaya': '/India/Thailand/Pattaya.jpg',
+        'Chiang Mai': '/India/Thailand/Chiang mai.jpg',
+        'Krabi': '/India/Thailand/Karabi.jpg'
+      };
+      if (imageMap[formattedName]) {
+        matchedImage = imageMap[formattedName];
+      }
+    }
 
     if (internationalMatch && formattedName === 'Destination') formattedName = internationalMatch.name;
     if (euMatch && formattedName === 'Destination') formattedName = euMatch.id.charAt(0).toUpperCase() + euMatch.id.slice(1);

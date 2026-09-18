@@ -35,7 +35,7 @@ export function RegionInfo({ region }) {
           About {region.name} Tour Packages
         </h3>
         <div className="space-y-4 text-gray-600 leading-relaxed text-sm md:text-base mb-10">
-          {region.aboutText.map((paragraph, idx) => (
+          {(region.aboutText || [`Explore the wonderful destinations of ${region.name} and experience the best it has to offer.`]).map((paragraph, idx) => (
             <p key={idx}>{paragraph}</p>
           ))}
         </div>
@@ -45,7 +45,7 @@ export function RegionInfo({ region }) {
           Best Time to Visit {region.name}
         </h3>
         <ul className="list-disc pl-5 space-y-2 text-gray-600 text-sm md:text-base mb-10 marker:text-blue-600">
-          {region.bestTime.map((item, idx) => (
+          {(region.bestTime || ["Year-round destination", "Check local weather conditions before planning"]).map((item, idx) => (
             <li key={idx} className="pl-2">{item}</li>
           ))}
         </ul>
@@ -55,7 +55,7 @@ export function RegionInfo({ region }) {
           What's Included in Our Packages
         </h3>
         <ul className="list-disc pl-5 space-y-2 text-gray-600 text-sm md:text-base mb-10 marker:text-blue-600">
-          {region.included.map((item, idx) => (
+          {(region.included || ["Hotel accommodation", "Daily breakfast", "Sightseeing and transfers"]).map((item, idx) => (
             <li key={idx} className="pl-2">{item}</li>
           ))}
         </ul>

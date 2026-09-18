@@ -15,7 +15,10 @@ export function RegionFAQ({ faqs }) {
           </h2>
           
           <div className="space-y-3">
-            {faqs.map((faq, index) => (
+            {(faqs || [
+              { question: "What is the best time to visit?", answer: "The best time to visit depends on your preferences, but typically the peak season offers the best weather." },
+              { question: "Are customized tour packages available?", answer: "Yes, we specialize in tailoring itineraries to match your specific preferences and budget." }
+            ]).map((faq, index) => (
               <div key={index} className="bg-white rounded overflow-hidden shadow-sm">
                 <button
                   className="w-full flex items-center justify-between text-left p-4 focus:outline-none"

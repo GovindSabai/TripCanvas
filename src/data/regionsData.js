@@ -7923,5 +7923,857 @@ export const regionsData = {
         "answer": "Most of our packages include daily breakfast and dinner at the hotel. We also try to incorporate authentic local culinary experiences during the tours."
       }
     ]
+  },
+  "goa": {
+    "id": "goa",
+    "name": "Goa",
+    "heroImage": "/India/Goa/North goa.jpg",
+    "packagesTitle": "Goa Tour Packages 2026 | Best Deals",
+    "packagesDescription": "Explore the beautiful beaches, vibrant nightlife, and rich culture of Goa with our customized tour packages.",
+    "packages": [
+      {
+        "id": "goa-1",
+        "name": "North Goa Beach Hop",
+        "duration": "4 days 3 nights",
+        "tourType": "Daily Tour",
+        "groupSize": "Unlimited",
+        "languages": "English, Hindi",
+        "image": "/India/Goa/Baga.jpg",
+        "about": "Discover the lively beaches of North Goa including Baga and Calangute.",
+        "highlights": [
+          "Visit Baga beach",
+          "Enjoy water sports"
+        ],
+        "included": [
+          "Hotel",
+          "Breakfast"
+        ],
+        "excluded": [
+          "Flights"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Arrive in Goa"
+          }
+        ]
+      },
+      {
+        "id": "goa-2",
+        "name": "South Goa Serenity",
+        "duration": "5 days 4 nights",
+        "tourType": "Daily Tour",
+        "groupSize": "Unlimited",
+        "languages": "English, Hindi",
+        "image": "/India/Goa/south goa.jpg",
+        "about": "Relax on the pristine and quiet beaches of South Goa.",
+        "highlights": [
+          "Visit Palolem beach",
+          "Relaxation"
+        ],
+        "included": [
+          "Hotel",
+          "Breakfast"
+        ],
+        "excluded": [
+          "Flights"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Arrive in South Goa"
+          }
+        ]
+      },
+      {
+        "id": "goa-3",
+        "name": "Goa Heritage Tour",
+        "duration": "3 days 2 nights",
+        "tourType": "Daily Tour",
+        "groupSize": "Unlimited",
+        "languages": "English, Hindi",
+        "image": "/India/Goa/Panaji.jpg",
+        "about": "Explore the rich Portuguese heritage and ancient churches of Old Goa.",
+        "highlights": [
+          "Visit Old Goa",
+          "Basilica of Bom Jesus"
+        ],
+        "included": [
+          "Hotel",
+          "Breakfast"
+        ],
+        "excluded": [
+          "Flights"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Arrive in Old Goa"
+          }
+        ]
+      },
+      {
+        "id": "goa-4",
+        "name": "Dudhsagar Waterfall Trek",
+        "duration": "2 days 1 night",
+        "tourType": "Adventure",
+        "groupSize": "Unlimited",
+        "languages": "English, Hindi",
+        "image": "/India/Goa/Dudhsagar.jpg",
+        "about": "Trek to the majestic Dudhsagar waterfalls and enjoy the lush green surroundings.",
+        "highlights": [
+          "Dudhsagar waterfall",
+          "Spice plantation tour"
+        ],
+        "included": [
+          "Hotel",
+          "Breakfast"
+        ],
+        "excluded": [
+          "Flights"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Arrive at Dudhsagar"
+          }
+        ]
+      },
+      {
+        "id": "goa-5",
+        "name": "Goa Nightlife Experience",
+        "duration": "4 days 3 nights",
+        "tourType": "Nightlife",
+        "groupSize": "Unlimited",
+        "languages": "English, Hindi",
+        "image": "/India/Goa/Anjuna.jpg",
+        "about": "Experience the vibrant nightlife, flea markets, and parties in Goa.",
+        "highlights": [
+          "Anjuna flea market",
+          "Beach parties"
+        ],
+        "included": [
+          "Hotel",
+          "Breakfast"
+        ],
+        "excluded": [
+          "Flights"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Arrive in Goa"
+          }
+        ]
+      }
+    ]
+  },
+  "uttarakhand": {
+    "id": "uttarakhand",
+    "name": "Uttarakhand",
+    "heroImage": "/Home/Uttarakhand Chardham.jpg",
+    "packagesTitle": "Uttarakhand Tour Packages 2026 | Best Deals",
+    "packagesDescription": "Discover the spiritual serenity and natural beauty of Uttarakhand, the Land of Gods.",
+    "packages": [
+      {
+        "id": "uk-1",
+        "name": "Nainital Lake Retreat",
+        "duration": "4 days 3 nights",
+        "tourType": "Nature",
+        "groupSize": "Unlimited",
+        "languages": "English, Hindi",
+        "image": "/India/Nanital Uttarakhand.jpg",
+        "about": "Enjoy a peaceful retreat by the famous Naini Lake surrounded by hills.",
+        "highlights": [
+          "Boating in Naini Lake",
+          "Visit Naina Devi Temple"
+        ],
+        "included": [
+          "Hotel",
+          "Breakfast"
+        ],
+        "excluded": [
+          "Flights"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Arrive in Nainital"
+          }
+        ]
+      },
+      {
+        "id": "uk-2",
+        "name": "Rishikesh Adventure & Yoga",
+        "duration": "5 days 4 nights",
+        "tourType": "Adventure & Spiritual",
+        "groupSize": "Unlimited",
+        "languages": "English, Hindi",
+        "image": "/India/Rishikesh Uttarakhand.jpg",
+        "about": "Experience thrilling river rafting and spiritual yoga sessions in Rishikesh.",
+        "highlights": [
+          "River rafting",
+          "Yoga by the Ganges"
+        ],
+        "included": [
+          "Hotel",
+          "Breakfast"
+        ],
+        "excluded": [
+          "Flights"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Arrive in Rishikesh"
+          }
+        ]
+      },
+      {
+        "id": "uk-3",
+        "name": "Mussoorie Hill Station Tour",
+        "duration": "3 days 2 nights",
+        "tourType": "Nature",
+        "groupSize": "Unlimited",
+        "languages": "English, Hindi",
+        "image": "/India/Massorrie Uttarakhand.jpg",
+        "about": "Visit the Queen of Hills, Mussoorie, for breathtaking views and cool weather.",
+        "highlights": [
+          "Kempty Falls",
+          "Mall Road stroll"
+        ],
+        "included": [
+          "Hotel",
+          "Breakfast"
+        ],
+        "excluded": [
+          "Flights"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Arrive in Mussoorie"
+          }
+        ]
+      },
+      {
+        "id": "uk-4",
+        "name": "Chardham Yatra Express",
+        "duration": "10 days 9 nights",
+        "tourType": "Spiritual",
+        "groupSize": "Unlimited",
+        "languages": "English, Hindi",
+        "image": "/Home/Uttarakhand Chardham.jpg",
+        "about": "A sacred journey to the four holy shrines of Uttarakhand.",
+        "highlights": [
+          "Visit Yamunotri, Gangotri",
+          "Kedarnath, Badrinath"
+        ],
+        "included": [
+          "Hotel",
+          "Breakfast"
+        ],
+        "excluded": [
+          "Flights"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Start Yatra"
+          }
+        ]
+      },
+      {
+        "id": "uk-5",
+        "name": "Do Dham Yatra",
+        "duration": "6 days 5 nights",
+        "tourType": "Spiritual",
+        "groupSize": "Unlimited",
+        "languages": "English, Hindi",
+        "image": "/Home/Uttarakhand Do Dham.jpg",
+        "about": "A shorter pilgrimage focusing on Kedarnath and Badrinath.",
+        "highlights": [
+          "Kedarnath Temple",
+          "Badrinath Temple"
+        ],
+        "included": [
+          "Hotel",
+          "Breakfast"
+        ],
+        "excluded": [
+          "Flights"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Start Do Dham Yatra"
+          }
+        ]
+      }
+    ]
+  },
+  "meghalaya": {
+    "id": "meghalaya",
+    "name": "Meghalaya",
+    "heroImage": "/India/Meghalaya.jpg",
+    "packagesTitle": "Meghalaya Tour Packages 2026 | Best Deals",
+    "packagesDescription": "Explore the amazing destinations in Meghalaya with our custom tailored tour packages.",
+    "packages": [
+      {
+        "id": "meghalaya-1",
+        "name": "Meghalaya Explorer",
+        "duration": "3 days 2 nights",
+        "tourType": "Daily Tour",
+        "groupSize": "Unlimited",
+        "languages": "English, Hindi",
+        "image": "/India/Meghalaya/Shillong.jpg",
+        "about": "A quick explorer tour of Meghalaya covering major highlights.",
+        "highlights": [
+          "Sightseeing in Meghalaya",
+          "Local culture"
+        ],
+        "included": [
+          "Hotel",
+          "Breakfast"
+        ],
+        "excluded": [
+          "Flights"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Arrive in Meghalaya"
+          }
+        ]
+      },
+      {
+        "id": "meghalaya-2",
+        "name": "Meghalaya Leisure Trip",
+        "duration": "5 days 4 nights",
+        "tourType": "Leisure",
+        "groupSize": "Unlimited",
+        "languages": "English, Hindi",
+        "image": "/India/Meghalaya/Cherranpunji.jpg",
+        "about": "A relaxing leisure trip across beautiful landscapes of Meghalaya.",
+        "highlights": [
+          "Relaxation",
+          "Local cuisine"
+        ],
+        "included": [
+          "Hotel",
+          "Breakfast",
+          "Dinner"
+        ],
+        "excluded": [
+          "Flights"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Arrive in Meghalaya"
+          }
+        ]
+      },
+      {
+        "id": "meghalaya-3",
+        "name": "Meghalaya Adventure & Heritage",
+        "duration": "4 days 3 nights",
+        "tourType": "Adventure",
+        "groupSize": "Unlimited",
+        "languages": "English, Hindi",
+        "image": "/India/Meghalaya/Dawki.jpg",
+        "about": "Experience the heritage and adventure side of Meghalaya.",
+        "highlights": [
+          "Heritage walk",
+          "Adventure activities"
+        ],
+        "included": [
+          "Hotel",
+          "Breakfast"
+        ],
+        "excluded": [
+          "Flights"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Arrive in Meghalaya"
+          }
+        ]
+      }
+    ]
+  },
+  "munnar": {
+    "id": "munnar",
+    "name": "Munnar",
+    "heroImage": "/India/Munnar.jpg",
+    "packagesTitle": "Munnar Tour Packages 2026 | Best Deals",
+    "packagesDescription": "Explore the amazing destinations in Munnar with our custom tailored tour packages.",
+    "packages": [
+      {
+        "id": "munnar-1",
+        "name": "Munnar Explorer",
+        "duration": "3 days 2 nights",
+        "tourType": "Daily Tour",
+        "groupSize": "Unlimited",
+        "languages": "English, Hindi",
+        "image": "/India/Munnar Kerala.jpg",
+        "about": "A quick explorer tour of Munnar covering major highlights.",
+        "highlights": [
+          "Sightseeing in Munnar",
+          "Local culture"
+        ],
+        "included": [
+          "Hotel",
+          "Breakfast"
+        ],
+        "excluded": [
+          "Flights"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Arrive in Munnar"
+          }
+        ]
+      },
+      {
+        "id": "munnar-2",
+        "name": "Munnar Leisure Trip",
+        "duration": "5 days 4 nights",
+        "tourType": "Leisure",
+        "groupSize": "Unlimited",
+        "languages": "English, Hindi",
+        "image": "/India/Kerala/Thekkady.jpg",
+        "about": "A relaxing leisure trip across beautiful landscapes of Munnar.",
+        "highlights": [
+          "Relaxation",
+          "Local cuisine"
+        ],
+        "included": [
+          "Hotel",
+          "Breakfast",
+          "Dinner"
+        ],
+        "excluded": [
+          "Flights"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Arrive in Munnar"
+          }
+        ]
+      },
+      {
+        "id": "munnar-3",
+        "name": "Munnar Adventure & Heritage",
+        "duration": "4 days 3 nights",
+        "tourType": "Adventure",
+        "groupSize": "Unlimited",
+        "languages": "English, Hindi",
+        "image": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?q=80&w=600&auto=format&fit=crop",
+        "about": "Experience the heritage and adventure side of Munnar.",
+        "highlights": [
+          "Heritage walk",
+          "Adventure activities"
+        ],
+        "included": [
+          "Hotel",
+          "Breakfast"
+        ],
+        "excluded": [
+          "Flights"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Arrive in Munnar"
+          }
+        ]
+      }
+    ]
+  },
+  "coorg": {
+    "id": "coorg",
+    "name": "Coorg",
+    "heroImage": "/India/Coorg.jpg",
+    "packagesTitle": "Coorg Tour Packages 2026 | Best Deals",
+    "packagesDescription": "Explore the amazing destinations in Coorg with our custom tailored tour packages.",
+    "packages": [
+      {
+        "id": "coorg-1",
+        "name": "Coorg Explorer",
+        "duration": "3 days 2 nights",
+        "tourType": "Daily Tour",
+        "groupSize": "Unlimited",
+        "languages": "English, Hindi",
+        "image": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?q=80&w=600&auto=format&fit=crop",
+        "about": "A quick explorer tour of Coorg covering major highlights.",
+        "highlights": [
+          "Sightseeing in Coorg",
+          "Local culture"
+        ],
+        "included": [
+          "Hotel",
+          "Breakfast"
+        ],
+        "excluded": [
+          "Flights"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Arrive in Coorg"
+          }
+        ]
+      },
+      {
+        "id": "coorg-2",
+        "name": "Coorg Leisure Trip",
+        "duration": "5 days 4 nights",
+        "tourType": "Leisure",
+        "groupSize": "Unlimited",
+        "languages": "English, Hindi",
+        "image": "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=600&auto=format&fit=crop",
+        "about": "A relaxing leisure trip across beautiful landscapes of Coorg.",
+        "highlights": [
+          "Relaxation",
+          "Local cuisine"
+        ],
+        "included": [
+          "Hotel",
+          "Breakfast",
+          "Dinner"
+        ],
+        "excluded": [
+          "Flights"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Arrive in Coorg"
+          }
+        ]
+      },
+      {
+        "id": "coorg-3",
+        "name": "Coorg Adventure & Heritage",
+        "duration": "4 days 3 nights",
+        "tourType": "Adventure",
+        "groupSize": "Unlimited",
+        "languages": "English, Hindi",
+        "image": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?q=80&w=600&auto=format&fit=crop",
+        "about": "Experience the heritage and adventure side of Coorg.",
+        "highlights": [
+          "Heritage walk",
+          "Adventure activities"
+        ],
+        "included": [
+          "Hotel",
+          "Breakfast"
+        ],
+        "excluded": [
+          "Flights"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Arrive in Coorg"
+          }
+        ]
+      }
+    ]
+  },
+  "mahabaleshwar": {
+    "id": "mahabaleshwar",
+    "name": "Mahabaleshwar",
+    "heroImage": "/India/Mahabaleshwar.jpg",
+    "packagesTitle": "Mahabaleshwar Tour Packages 2026 | Best Deals",
+    "packagesDescription": "Explore the amazing destinations in Mahabaleshwar with our custom tailored tour packages.",
+    "packages": [
+      {
+        "id": "mahabaleshwar-1",
+        "name": "Mahabaleshwar Explorer",
+        "duration": "3 days 2 nights",
+        "tourType": "Daily Tour",
+        "groupSize": "Unlimited",
+        "languages": "English, Hindi",
+        "image": "/India/Maharastra/Aurangabad.jpg",
+        "about": "A quick explorer tour of Mahabaleshwar covering major highlights.",
+        "highlights": [
+          "Sightseeing in Mahabaleshwar",
+          "Local culture"
+        ],
+        "included": [
+          "Hotel",
+          "Breakfast"
+        ],
+        "excluded": [
+          "Flights"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Arrive in Mahabaleshwar"
+          }
+        ]
+      },
+      {
+        "id": "mahabaleshwar-2",
+        "name": "Mahabaleshwar Leisure Trip",
+        "duration": "5 days 4 nights",
+        "tourType": "Leisure",
+        "groupSize": "Unlimited",
+        "languages": "English, Hindi",
+        "image": "/India/Maharastra/Nasik.jpg",
+        "about": "A relaxing leisure trip across beautiful landscapes of Mahabaleshwar.",
+        "highlights": [
+          "Relaxation",
+          "Local cuisine"
+        ],
+        "included": [
+          "Hotel",
+          "Breakfast",
+          "Dinner"
+        ],
+        "excluded": [
+          "Flights"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Arrive in Mahabaleshwar"
+          }
+        ]
+      },
+      {
+        "id": "mahabaleshwar-3",
+        "name": "Mahabaleshwar Adventure & Heritage",
+        "duration": "4 days 3 nights",
+        "tourType": "Adventure",
+        "groupSize": "Unlimited",
+        "languages": "English, Hindi",
+        "image": "/India/Maharastra/Tarkarli.jpg",
+        "about": "Experience the heritage and adventure side of Mahabaleshwar.",
+        "highlights": [
+          "Heritage walk",
+          "Adventure activities"
+        ],
+        "included": [
+          "Hotel",
+          "Breakfast"
+        ],
+        "excluded": [
+          "Flights"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Arrive in Mahabaleshwar"
+          }
+        ]
+      }
+    ]
+  },
+  "leh": {
+    "id": "leh",
+    "name": "Leh Ladakh",
+    "heroImage": "/India/Leh Ladakh.jpg",
+    "packagesTitle": "Leh Ladakh Tour Packages 2026 | Best Deals",
+    "packagesDescription": "Explore the amazing destinations in Leh Ladakh with our custom tailored tour packages.",
+    "packages": [
+      {
+        "id": "leh-1",
+        "name": "Leh Ladakh Explorer",
+        "duration": "3 days 2 nights",
+        "tourType": "Daily Tour",
+        "groupSize": "Unlimited",
+        "languages": "English, Hindi",
+        "image": "/India/Leh Ladakh.jpg",
+        "about": "A quick explorer tour of Leh Ladakh covering major highlights.",
+        "highlights": [
+          "Sightseeing in Leh Ladakh",
+          "Local culture"
+        ],
+        "included": [
+          "Hotel",
+          "Breakfast"
+        ],
+        "excluded": [
+          "Flights"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Arrive in Leh Ladakh"
+          }
+        ]
+      },
+      {
+        "id": "leh-2",
+        "name": "Leh Ladakh Leisure Trip",
+        "duration": "5 days 4 nights",
+        "tourType": "Leisure",
+        "groupSize": "Unlimited",
+        "languages": "English, Hindi",
+        "image": "/India/Leh Ladakh.jpg",
+        "about": "A relaxing leisure trip across beautiful landscapes of Leh Ladakh.",
+        "highlights": [
+          "Relaxation",
+          "Local cuisine"
+        ],
+        "included": [
+          "Hotel",
+          "Breakfast",
+          "Dinner"
+        ],
+        "excluded": [
+          "Flights"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Arrive in Leh Ladakh"
+          }
+        ]
+      },
+      {
+        "id": "leh-3",
+        "name": "Leh Ladakh Adventure & Heritage",
+        "duration": "4 days 3 nights",
+        "tourType": "Adventure",
+        "groupSize": "Unlimited",
+        "languages": "English, Hindi",
+        "image": "/India/Leh Ladakh.jpg",
+        "about": "Experience the heritage and adventure side of Leh Ladakh.",
+        "highlights": [
+          "Heritage walk",
+          "Adventure activities"
+        ],
+        "included": [
+          "Hotel",
+          "Breakfast"
+        ],
+        "excluded": [
+          "Flights"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Arrive in Leh Ladakh"
+          }
+        ]
+      },
+      {
+        "id": "leh-4",
+        "name": "Pangong Lake Expedition",
+        "duration": "3 days 2 nights",
+        "tourType": "Adventure",
+        "groupSize": "Unlimited",
+        "languages": "English, Hindi",
+        "image": "/India/Leh Ladakh.jpg",
+        "about": "Explore the breathtaking Pangong Lake.",
+        "highlights": [
+          "Pangong Lake",
+          "Scenic drive"
+        ],
+        "included": [
+          "Hotel",
+          "Breakfast"
+        ],
+        "excluded": [
+          "Flights"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Arrive at Pangong"
+          }
+        ]
+      },
+      {
+        "id": "leh-5",
+        "name": "Nubra Valley Safari",
+        "duration": "4 days 3 nights",
+        "tourType": "Safari",
+        "groupSize": "Unlimited",
+        "languages": "English, Hindi",
+        "image": "/India/Leh Ladakh.jpg",
+        "about": "A thrilling safari across the sand dunes of Nubra Valley.",
+        "highlights": [
+          "Camel safari",
+          "Diskit Monastery"
+        ],
+        "included": [
+          "Hotel",
+          "Breakfast"
+        ],
+        "excluded": [
+          "Flights"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Arrive at Nubra Valley"
+          }
+        ]
+      },
+      {
+        "id": "leh-6",
+        "name": "Monasteries of Ladakh",
+        "duration": "5 days 4 nights",
+        "tourType": "Culture",
+        "groupSize": "Unlimited",
+        "languages": "English, Hindi",
+        "image": "/India/Leh Ladakh.jpg",
+        "about": "A cultural journey through the ancient monasteries of Ladakh.",
+        "highlights": [
+          "Hemis Monastery",
+          "Thiksey Monastery"
+        ],
+        "included": [
+          "Hotel",
+          "Breakfast"
+        ],
+        "excluded": [
+          "Flights"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival",
+            "description": "Arrive in Leh"
+          }
+        ]
+      }
+    ]
   }
 };

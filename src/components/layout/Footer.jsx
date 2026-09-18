@@ -16,7 +16,6 @@ export function Footer() {
         <div>
           <h4 className="text-ivory font-medium mb-6 uppercase text-sm tracking-wider">Explore</h4>
           <ul className="space-y-4 text-sm">
-            <li><Link to="/destinations" className="hover:text-bronzeLight transition-colors">Destinations</Link></li>
             <li><Link to="/experiences" className="hover:text-bronzeLight transition-colors">Experiences</Link></li>
             <li><Link to="/journal" className="hover:text-bronzeLight transition-colors">Journal</Link></li>
             <li><Link to="/plan" className="hover:text-bronzeLight transition-colors">Plan Your Trip</Link></li>
@@ -27,28 +26,28 @@ export function Footer() {
           <ul className="space-y-4 text-sm">
             <li><Link to="/about" className="hover:text-bronzeLight transition-colors">About Us</Link></li>
             <li><Link to="/contact" className="hover:text-bronzeLight transition-colors">Contact</Link></li>
-            <li><Link to="/faq" className="hover:text-bronzeLight transition-colors">FAQ</Link></li>
+            <li><Link to="/login" className="hover:text-bronzeLight transition-colors">Login</Link></li>
           </ul>
         </div>
         <div>
           <h4 className="text-ivory font-medium mb-6 uppercase text-sm tracking-wider">Social</h4>
           <div className="flex gap-4">
             {/* Facebook */}
-            <Link to="/facebook" className="w-10 h-10 rounded-full bg-[#3b5998] flex items-center justify-center text-white hover:opacity-80 transition-opacity">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#3b5998] flex items-center justify-center text-white hover:opacity-80 transition-opacity">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-            </Link>
+            </a>
             {/* LinkedIn */}
-            <Link to="/linkedin" className="w-10 h-10 rounded-full bg-[#007bb5] flex items-center justify-center text-white hover:opacity-80 transition-opacity">
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#007bb5] flex items-center justify-center text-white hover:opacity-80 transition-opacity">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
-            </Link>
+            </a>
             {/* Instagram */}
-            <Link to="/instagram" className="w-10 h-10 rounded-full bg-gradient-to-tr from-[#f09433] via-[#e6683c] to-[#bc1888] flex items-center justify-center text-white hover:opacity-80 transition-opacity">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-gradient-to-tr from-[#f09433] via-[#e6683c] to-[#bc1888] flex items-center justify-center text-white hover:opacity-80 transition-opacity">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-            </Link>
+            </a>
             {/* YouTube */}
-            <Link to="/youtube" className="w-10 h-10 rounded-full bg-[#ff0000] flex items-center justify-center text-white hover:opacity-80 transition-opacity">
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#ff0000] flex items-center justify-center text-white hover:opacity-80 transition-opacity">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
-            </Link>
+            </a>
           </div>
         </div>
       </div>

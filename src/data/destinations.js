@@ -393,7 +393,7 @@ export const destinations = [
     "region": "Europe",
     "budget": "$$$",
     "basePrice": 150,
-    "image": "https://images.unsplash.com/photo-1476610283833-2895f3a093ed?q=80&w=800&auto=format&fit=crop",
+    "image": "/World/iceland-new.png",
     "popularityRank": 5,
     "gallery": [
       "https://images.unsplash.com/photo-1476610283833-2895f3a093ed?q=80&w=800&auto=format&fit=crop",
@@ -977,7 +977,7 @@ export const destinations = [
     "region": "Americas",
     "budget": "$$",
     "basePrice": 150,
-    "image": "https://images.unsplash.com/photo-1476610283833-2895f3a093ed?q=80&w=800&auto=format&fit=crop",
+    "image": "/World/patagonia-new.png",
     "popularityRank": 11,
     "gallery": [
       "https://images.unsplash.com/photo-1476610283833-2895f3a093ed?q=80&w=800&auto=format&fit=crop",
@@ -1251,7 +1251,7 @@ export const destinations = [
       "Party",
       "Relaxation"
     ],
-    "image": "/India/Goa.jpg"
+    "image": "/India/Goa/North goa.jpg"
   },
   {
     "slug": "uttarakhand",
@@ -1267,7 +1267,7 @@ export const destinations = [
       "Adventure Travel",
       "Nature & Wildlife"
     ],
-    "image": "/India/Uttarakhand.jpg"
+    "image": "/Home/Uttarakhand Chardham.jpg"
   },
   {
     "slug": "meghalaya",

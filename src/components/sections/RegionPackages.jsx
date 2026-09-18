@@ -52,9 +52,9 @@ export function RegionPackages({ region }) {
           {region.name}
         </h3>
         <div className="space-y-4 text-stone-600 leading-relaxed text-sm md:text-base max-w-5xl">
-          {region.aboutText.map((paragraph, idx) => (
+          {region.aboutText?.map((paragraph, idx) => (
             <p key={idx}>{paragraph}</p>
-          ))}
+          )) || <p>Discover the amazing experiences waiting for you in {region.name}.</p>}
         </div>
       </div>
 
@@ -65,7 +65,7 @@ export function RegionPackages({ region }) {
             Why Visit {region.name}?
           </h3>
           <ul className="space-y-4">
-            {region.whyVisit.points.map((point, idx) => (
+            {(region.whyVisit?.points || ["Amazing natural beauty", "Rich cultural heritage", "Unforgettable experiences"]).map((point, idx) => (
               <li key={idx} className="flex items-start">
                 <span className="mr-3 text-lg leading-none">✨</span>
                 <span className="text-stone-700 text-sm md:text-base font-medium">{point}</span>
@@ -75,7 +75,7 @@ export function RegionPackages({ region }) {
         </div>
         <div className="w-full md:w-1/2">
           <img 
-            src={region.whyVisit.image} 
+            src={region.whyVisit?.image || region.heroImage} 
             alt={`Why visit ${region.name}`} 
             className="w-full h-auto rounded-xl shadow-lg object-cover max-h-[300px]"
           />

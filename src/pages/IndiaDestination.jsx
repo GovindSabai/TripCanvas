@@ -21,7 +21,7 @@ export default function IndiaDestination() {
     .filter(d => d.country === 'India')
     .map(d => ({
       name: d.name,
-      packages: `${d.thingsToDo?.length || 5} Tour Packages`,
+      packages: `${regionsData[d.slug]?.packages?.length || (d.thingsToDo?.length || 0)} Tour Packages`,
       image: d.image,
       type: 'region'
     }));

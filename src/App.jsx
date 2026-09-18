@@ -66,7 +66,6 @@ function AnimatedRoutes() {
           <Route path="/region/:id" element={<RegionPage />} />
           <Route path="/story/:id" element={<StoryPage />} />
           <Route path="/tour/:id" element={<TourPage />} />
-          <Route path="/destinations" element={<ComingSoon />} />
           <Route path="/experiences" element={<ExperiencesPage />} />
           <Route path="/experiences/:slug" element={<ExperienceDetailsPage />} />
           <Route path="/journal" element={<JournalPage />} />
@@ -100,7 +99,7 @@ function AnimatedRoutes() {
             <Route path="settings" element={<AdminSettings />} />
           </Route>
 
-          <Route path="*" element={<ComingSoon />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </AnimatePresence>
   );
