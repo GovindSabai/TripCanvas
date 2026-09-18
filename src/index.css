@@ -1,0 +1,92 @@
+@import '@fontsource/fraunces/400.css';
+@import '@fontsource/fraunces/600.css';
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans bg-ivory text-charcoal antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+/* Global Dark Mode overrides for Admin Panel */
+.dark body {
+  @apply bg-charcoal text-white;
+}
+
+.dark .bg-white {
+  @apply bg-ink !important;
+}
+
+.dark .text-gray-900,
+.dark .text-gray-800,
+.dark .text-gray-700 {
+  @apply text-gray-100 !important;
+}
+
+.dark .text-gray-600,
+.dark .text-gray-500 {
+  @apply text-gray-300 !important;
+}
+
+.dark .bg-gray-50,
+.dark .bg-gray-100 {
+  @apply bg-charcoal !important;
+}
+
+.dark .border-gray-200,
+.dark .border-gray-300 {
+  @apply border-gray-700 !important;
+}
+
+.dark .divide-gray-200 > :not([hidden]) ~ :not([hidden]) {
+  @apply border-gray-700 !important;
+}
+
+/* Fix for form inputs in dark mode */
+.dark input[type="text"],
+.dark input[type="email"],
+.dark input[type="password"],
+.dark input[type="number"],
+.dark textarea,
+.dark select {
+  @apply bg-charcoal border-gray-700 text-white !important;
+}
+
+
+/* Travel Marquee Animation */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Slide animation */
+@keyframes slider {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-slider {
+  animation: slider 40s linear infinite;
+}
+
+.animate-slider:hover {
+  animation-play-state: paused;
+}
+
