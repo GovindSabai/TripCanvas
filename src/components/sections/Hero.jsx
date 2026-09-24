@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const slides = [
-  {
+    {
     id: 1,
-    video: '/Home/Taj Mahal.mp4',
+    video: '/Home/Taj_Mahal.mp4',
     heading: 'WONDERS OF INDIA',
     animationType: 'slideUp'
   },
@@ -80,7 +80,7 @@ export function Hero() {
         {slides.map((slide, index) => (
           <motion.div
             key={slide.id}
-            initial={{ opacity: 0 }}
+            initial={{ opacity: index === 0 ? 1 : 0 }}
             animate={{ opacity: current === index ? 1 : 0 }}
             transition={{ duration: 1.5 }}
             className="absolute inset-0 w-full h-full"
